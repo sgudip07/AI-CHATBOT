@@ -1,0 +1,900 @@
+[
+  {
+    "intent": "greeting",
+    "questions": [
+      "hi",
+      "hello",
+      "hey",
+      "হ্যালো",
+      "কেমন আছো",
+      "হাই"
+    ],
+    "answer": "Hello 👋! I am your Brainware University Helpdesk Bot. How can I assist you today?"
+  },
+  {
+    "intent": "admission_info",
+    "questions": [
+      "How can I apply for admission in Brainware?",
+      "Admission process",
+      "How to apply for admission in Brainware?",
+      "ভর্তি হতে হলে কী করতে হবে?",
+      "apply for admission",
+      "admission procedure"
+    ],
+    "answer": "Apply online via the official portal: 🔗 <a href=\"https://www.brainwareuniversity.ac.in/apply-now\" target=\"_blank\">Apply Now</a>. You can also visit the Admission Office at the Barasat campus for help."
+  },
+  {
+    "intent": "admission_eligibility",
+    "questions": [
+      "What qualification is needed for admission at Brainware?",
+      "admission eligibility",
+      "eligibility criteria",
+      "minimum qualification for admission",
+      "Brainware admission qualification",
+      "who can apply to Brainware"
+    ],
+    "answer": "Eligibility varies by programme. Generally: UG requires 10+2 (subject/percentile as per course); PG requires a relevant bachelor’s degree. For course‑wise criteria, see: 🔗 <a href=\"https://www.brainwareuniversity.ac.in/\" target=\"_blank\">Admissions – Eligibility</a>"
+  },
+  {
+    "intent": "student_credit_card",
+    "questions": [
+      "Is Student Credit Card facility available at Brainware?",
+      "student credit card facility",
+      "WB student credit card",
+      "West Bengal student credit card",
+      "loan for students",
+      "education loan scheme"
+    ],
+    "answer": "Yes—eligible students can apply under the West Bengal Student Credit Card scheme (subject to state rules and bank approval). For steps, documents and limits, see the official portal: 🔗 <a href=\"https://wbscc.wb.gov.in/\" target=\"_blank\">wbscc.wb.gov.in</a>. The university Admissions/Finance desk can guide you with supporting documents."
+  },
+  {
+    "intent": "exam_info",
+    "questions": [
+      "When will the semester exam be held?",
+      "Exam কবে হবে?",
+      "পরীক্ষার তারিখ কবে?",
+      "exam routine",
+      "test date"
+    ],
+    "answer": "Exams are held twice a year (June & December). For exact dates and routine, see the Academic Calendar: 🔗 <a href=\"https://www.brainwareuniversity.ac.in/\" target=\"_blank\">Academic Calendar</a>"
+  },
+  {
+    "intent": "exam_count",
+    "questions": [
+      "How many exams are held in a year?",
+      "বছরে কয়টা পরীক্ষা হয়?",
+      "কটা exam হয়?",
+      "exam number"
+    ],
+    "answer": "Brainware University conducts *two main semester exams* every year — one in June and another in December. In addition, there may be internal assessments or class tests during the semester."
+  },
+  {
+    "intent": "exam_marks",
+    "questions": [
+      "How many marks are the semester exams?",
+      "Exam এ কত নম্বর থাকে?",
+      "exam marks distribution",
+      "marks system"
+    ],
+    "answer": "Each semester exam usually carries *100 marks per subject*. Internal assessments and class tests are also added to the final evaluation."
+  },
+  {
+    "intent": "class_test_info",
+    "questions": [
+      "What about class tests?",
+      "CT কয় মার্কসের হয়?",
+      "class test marks",
+      "internal exam marks",
+      "ct exam"
+    ],
+    "answer": "Class Tests (CT) in Brainware University are usually *20 marks each* and conducted during the semester."
+  },
+  {
+    "intent": "fees_structure",
+    "questions": [
+      "What is the B.Tech CSE fees?",
+      "Fee structure বলো",
+      "কত টাকা লাগে?",
+      "tuition fees",
+      "semester fees"
+    ],
+    "answer": "The B.Tech CSE fees is around ₹4.89 Lakhs for 4 years. For detailed information, visit: 🔗 [B.Tech CSE Info](https://www.brainwareuniversity.ac.in/btech-cse.php)"
+  },
+  {
+    "intent": "hostel_info",
+    "questions": [
+      "Is hostel facility available?",
+      "Hostel আছে?",
+      "ছাত্রাবাস আছে কি?",
+      "hostel details",
+      "stay facility"
+    ],
+    "answer": "Yes, Brainware University provides separate hostel facilities for boys and girls with mess and other amenities."
+  },
+  {
+    "intent": "location",
+    "questions": [
+      "Where is Brainware University located?",
+      "Brainware কোথায়?",
+      "Brainware University campus location",
+      "address",
+      "location"
+    ],
+    "answer": "📍 Brainware University is located at 398, Ramkrishnapur Rd, near Jagadighata Market, Barasat, Kolkata, West Bengal 700125.<br><br>🔗 <a href=\"https://www.google.com/maps/dir/?api=1&destination=22.7199822%2C88.4721247\" target=\"_blank\">Get Directions</a> (choose your start point)"
+  },
+  {
+    "intent": "contact_office",
+    "questions": [
+      "How to contact university office?",
+      "Contact number বলো",
+      "ফোন নম্বর দাও",
+      "email",
+      "contact details"
+    ],
+    "answer": "You can contact Brainware University at +91-7044447723 or email info@brainwareuniversity.ac.in."
+  },
+  {
+    "intent": "thanks",
+    "questions": [
+      "thanks",
+      "thank",
+      "ধন্যবাদ",
+      "thank you",
+      "tnx",
+      "ধন্যবাদ ভাই"
+    ],
+    "answer": "You're most welcome 😊! If you have more questions, feel free to ask."
+  },
+  {
+    "intent": "btech_cse_aiml",
+    "questions": [
+      "Tell me about B.Tech CSE AI ML",
+      "AI ML course details",
+      "বিটেক AI ML",
+      "CSE AI ML",
+      "machine learning course"
+    ],
+    "answer": "📘 B.Tech in CSE (AI & ML)\n🕒 Duration: 4 years\n💰 Fees: ₹4.89 Lakhs\n🎓 Eligibility: 10+2 with PCM\n🔗 [More Info](https://www.brainwareuniversity.ac.in/btech-cse.php)"
+  },
+  {
+    "intent": "btech_cse_cyber",
+    "questions": [
+      "Cyber Security B.Tech",
+      "CSE Cyber course",
+      "বিটেক সাইবার",
+      "Cyber Security details",
+      "cyber course"
+    ],
+    "answer": "📘 B.Tech in CSE (Cyber Security)\n🕒 Duration: 4 years\n💰 Fees: ₹4.89 Lakhs\n🎓 Eligibility: 10+2 with PCM\n🔗 [More Info](https://www.brainwareuniversity.ac.in/btech-cse.php)"
+  },
+  {
+    "intent": "mca_course",
+    "questions": [
+      "Tell me about MCA",
+      "MCA course details",
+      "এমসিএ",
+      "Master of Computer Applications",
+      "MCA eligibility"
+    ],
+    "answer": "📘 MCA (Master of Computer Applications)\n🕒 Duration: 3 years\n💰 Fees: ₹2.60 Lakhs\n🎓 Eligibility: BCA or equivalent\n🔗 [More Info](https://www.brainwareuniversity.ac.in/mca.php)"
+  },
+  {
+    "intent": "gnm_course",
+    "questions": [
+      "GNM Nursing course",
+      "GNM details",
+      "জিএনএম নার্সিং",
+      "Nursing diploma",
+      "GNM eligibility"
+    ],
+    "answer": "📘 GNM Nursing\n🕒 Duration: 3 years\n💰 Fees: ₹4.99 Lakhs\n🎓 Eligibility: 10+2 with Science\n🔗 [More Info](https://www.brainwareuniversity.ac.in/gnm-nursing.php)"
+  },
+  {
+    "intent": "fees_structure_link",
+    "questions": [
+      "Brainware University full fees structure",
+      "show me the fee document",
+      "fee PDF",
+      "fee breakdown",
+      "ব্রেনওয়্যার ফি ডকুমেন্ট"
+    ],
+    "answer": "You can view the current fees and scholarships on the official site: 🔗 <a href=\"https://www.brainwareuniversity.ac.in/\" target=\"_blank\">Brainware University</a> (navigate to Admissions → Fees/Scholarships)."
+  },
+  {
+    "intent": "academics_1",
+    "questions": [
+      "How do I register for classes at Brainware University?"
+    ],
+    "answer": "You can register for classes via the Brainware online student portal. Go to the “Course Registration” section, add courses according to your program’s requirements, and submit for advisor approval before the registration deadline."
+  },
+  {
+    "intent": "academics_2",
+    "questions": [
+      "When does the semester start at Brainware University?"
+    ],
+    "answer": "Semesters typically start in early July (odd semester) and mid-January (even semester). Refer to the official academic calendar for exact start dates."
+  },
+  {
+    "intent": "academics_3",
+    "questions": [
+      "Where can I find my class schedule in the Brainware student portal?"
+    ],
+    "answer": "Your class schedule appears under the “My Timetable” or “Schedule” tab in the student portal once registration is complete."
+  },
+  {
+    "intent": "academics_4",
+    "questions": [
+      "How do I contact my academic advisor at Brainware?"
+    ],
+    "answer": "Advisor contact details are available under “Academic Advisor” in the portal. You can also email or visit them in person during office hours, listed on the portal."
+  },
+  {
+    "intent": "academics_5",
+    "questions": [
+      "How can I drop or add a course at Brainware University?"
+    ],
+    "answer": "Log into the portal, navigate to “Add/Drop Courses” during the official add/drop window, select your changes, and submit. Advisor approval may be required."
+  },
+  {
+    "intent": "technical_support_1",
+    "questions": [
+      "I'm having trouble logging into Brainware University's student portal. What should I do?"
+    ],
+    "answer": "First, ensure your username and password are correct. If still unable, use “Forgot Password” or contact the IT Helpdesk at the university for assistance."
+  },
+  {
+    "intent": "technical_support_2",
+    "questions": [
+      "How do I reset my Brainware email password?"
+    ],
+    "answer": "Visit the Brainware email login portal and click “Reset Password” or “Forgot Password”. Follow the steps—usually via a recovery email or SMS. For further help, contact IT support."
+  },
+  {
+    "intent": "technical_support_3",
+    "questions": [
+      "Wi-Fi isn’t working on campus. Is there a network issue in Brainware?"
+    ],
+    "answer": "Check your connection settings and whether the network requires login credentials. If the issue persists, reach out to the IT or Wireless Network support team from the campus helpdesk."
+  },
+  {
+    "intent": "finance_tuition_1",
+    "questions": [
+      "When is my tuition due at Brainware University?"
+    ],
+    "answer": "Tuition due dates are listed in the academic calendar and on your student portal under “Fees” or “Finance.” Usually, it’s at the beginning of each semester."
+  },
+  {
+    "intent": "finance_tuition_2",
+    "questions": [
+      "How do I apply for financial aid at Brainware?"
+    ],
+    "answer": "Visit the Finance or Student Services office or check the portal for “Scholarships & Financial Aid” to get application forms and guidance."
+  },
+  {
+    "intent": "finance_tuition_3",
+    "questions": [
+      "Where can I check my tuition balance in Brainware's portal?"
+    ],
+    "answer": "Your current fee balance is displayed under the “Finance” or “Fee Status” section in the student portal."
+  },
+  {
+    "intent": "finance_tuition_4",
+    "questions": [
+      "How can I set up a payment plan at Brainware?"
+    ],
+    "answer": "Payment plan options may be available through the Finance Office or the portal’s finance section. Contact them directly to discuss installment plans."
+  },
+  {
+    "intent": "finance_tuition_5",
+    "questions": [
+      "What scholarships are available for Brainware University students?"
+    ],
+    "answer": "Available scholarships—merit-based, need-based, or government schemes—are listed under “Scholarships” in the portal or announced by the university’s Student Services."
+  },
+  {
+    "intent": "finance_tuition_6",
+    "questions": [
+      "Where can I pay my tuition at Brainware?"
+    ],
+    "answer": "You can pay your tuition online via the student portal’s payment gateway or in person at the finance/accounts office using cash, card, or other accepted modes."
+  },
+  {
+    "intent": "finance_tuition_7",
+    "questions": [
+      "How do I get a refund if I drop a course at Brainware?"
+    ],
+    "answer": "Refund policies are listed under “Refunds” in the portal. Generally, you submit a drop request, and if eligible, the refund is processed according to the university’s policy."
+  },
+  {
+    "intent": "finance_tuition_8",
+    "questions": [
+      "Is SVMCM available for Brainware students?"
+    ],
+    "answer": "SVMCM (Swami Vivekananda Merit-cum-Means Scholarship) eligibility and availability should be confirmed with the scholarship or Student Services office."
+  },
+  {
+    "intent": "finance_tuition_9",
+    "questions": [
+      "How can I apply for the SVMCM scholarship as a Brainware student?"
+    ],
+    "answer": "Collect the application form (either online or in-person) via the Scholarships section of the portal or Student Services office, then submit supporting documents as required."
+  },
+  {
+    "intent": "housing_campus_life_1",
+    "questions": [
+      "How do I apply for campus housing at Brainware?"
+    ],
+    "answer": "Housing application forms are available through the Student Affairs or Student Services section of the portal or in person at their office."
+  },
+  {
+    "intent": "housing_campus_life_2",
+    "questions": [
+      "Where are the boys’ and girls’ hostels located at Brainware University?"
+    ],
+    "answer": "Hostel locations and details—such as addresses or block names—are shared on the university’s website or via student orientation materials."
+  },
+  {
+    "intent": "housing_campus_life_3",
+    "questions": [
+      "How do I reach the hostel from the main gate at Brainware?"
+    ],
+    "answer": "You can follow campus signage or consult a campus map. Walking directions or a campus shuttle may be available—check Student Services for assistance."
+  },
+  {
+    "intent": "housing_campus_life_4",
+    "questions": [
+      "Is there a map of the hostel blocks at Brainware?"
+    ],
+    "answer": "Yes, a downloadable campus map including hostel block layout is typically available on the university website or in the portal under “Campus Map.”"
+  },
+  {
+    "intent": "housing_campus_life_5",
+    "questions": [
+      "What are the dining hall hours at Brainware?"
+    ],
+    "answer": "Dining hall timings are posted at the venue and usually also available on the portal, typically covering breakfast, lunch, snacks, and dinner slots."
+  },
+  {
+    "intent": "housing_campus_life_6",
+    "questions": [
+      "Where is the student health center located on Brainware campus?"
+    ],
+    "answer": "The student health center location is listed in campus maps and directory; you can also ask at the student helpdesk or check the portal.”"
+  },
+  {
+    "intent": "all_courses_link",
+    "questions": [
+      "all course details",
+      "show all courses",
+      "courses list",
+      "programmes list",
+      "brainware all courses"
+    ],
+    "answer": "See all programmes on the official site: 🔗 <a href=\"https://www.brainwareuniversity.ac.in/\" target=\"_blank\">All Courses</a>"
+  },
+  {
+    "intent": "student_services_1",
+    "questions": [
+      "Where can I get my student ID at Brainware?"
+    ],
+    "answer": "Student ID cards are issued by the Student Services or Registrar’s office. Visit in person with your admission proof, or check if the portal supports requests."
+  },
+  {
+    "intent": "student_services_2",
+    "questions": [
+      "What are the student helpdesk hours at Brainware?"
+    ],
+    "answer": "Helpdesk hours vary—typically weekdays from 9 AM to 5 PM. Confirm exact timings on the portal or notice boards."
+  },
+  {
+    "intent": "student_services_3",
+    "questions": [
+      "Can I get a copy of my transcript from Brainware?"
+    ],
+    "answer": "Yes. Transcripts can be requested via the Registrar’s office or through “Transcript Request” in the portal; there may be a processing fee."
+  },
+  {
+    "intent": "student_services_4",
+    "questions": [
+      "How do I update my personal details in Brainware's system?"
+    ],
+    "answer": "Log into the portal, go to “Profile” or “My Details,” update info (address, contact), and submit changes; some updates might require supporting documents."
+  },
+  {
+    "intent": "student_services_5",
+    "questions": [
+      "Can I change my major at Brainware University?"
+    ],
+    "answer": "Major change requests are typically handled during specific periods via application form submission to the Registrar or Department, possibly requiring approvals."
+  },
+  {
+    "intent": "student_services_6",
+    "questions": [
+      "Where can I see my grades at Brainware?"
+    ],
+    "answer": "Grades are viewable under “Results” or “Grades” in the student portal after the exam results are published."
+  },
+  {
+    "intent": "student_services_7",
+    "questions": [
+      "How can I request an official transcript from Brainware?"
+    ],
+    "answer": "Submit a request via the “Transcript Request” feature in the portal or at the Registrar’s office, including any required forms and fees."
+  },
+  {
+    "intent": "student_services_8",
+    "questions": [
+      "Where is the finance or accounts office at Brainware?"
+    ],
+    "answer": "The finance/accounts office is located in the administrative block — exact location is listed on campus maps and the Student Services section."
+  },
+  {
+    "intent": "student_services_9",
+    "questions": [
+      "Where is the placement cell office located in Brainware University?"
+    ],
+    "answer": "The placement or career services office is usually located near the main academic or administrative block; check the campus map or ask at the helpdesk."
+  },
+  {
+    "intent": "admissions_1",
+    "questions": [
+      "How do I apply for admission at Brainware University?"
+    ],
+    "answer": "Apply online through the university’s admissions portal: fill in the form, upload required documents, pay the application fee, and submit."
+  },
+  {
+    "intent": "admissions_2",
+    "questions": [
+      "What documents are required for admission at Brainware?"
+    ],
+    "answer": "Typically required: Class 10 and 12 mark sheets, ID proof, passport-size photo, and category certificate if applicable. Check the admissions section for the full list."
+  },
+  {
+    "intent": "admissions_3",
+    "questions": [
+      "How can I check my application status at Brainware?"
+    ],
+    "answer": "Log into the admissions portal and go to “Application Status.” You’ll see review stages like submitted, under review, accepted, or require documents."
+  },
+  {
+    "intent": "admissions_4",
+    "questions": [
+      "When is the deadline to accept my offer from Brainware University?"
+    ],
+    "answer": "Offer acceptance deadlines are provided in your admission offer letter and on the admissions portal—usually a few weeks after the offer date."
+  },
+  {
+    "intent": "exams_calendar_1",
+    "questions": [
+      "Where can I find the academic calendar for Brainware University?"
+    ],
+    "answer": "The academic calendar is available on the university’s website and in the portal under “Academic Calendar” or “Important Dates.”"
+  },
+  {
+    "intent": "exams_calendar_2",
+    "questions": [
+      "When are the final exams held at Brainware?"
+    ],
+    "answer": "Final exams are usually scheduled at the end of each semester—around December for odd semester and May for even semester. Confirm via the academic calendar."
+  },
+  {
+    "intent": "exams_calendar_3",
+    "questions": [
+      "How do I book a make-up exam at Brainware University?"
+    ],
+    "answer": "If you miss an exam, contact the Exam Cell or Registrar’s office immediately. They will guide you on the make-up exam application process and deadlines."
+  },
+  {
+    "intent": "exams_calendar_4",
+    "questions": [
+      "What is the procedure if I miss an exam at Brainware?"
+    ],
+    "answer": "Report immediately to the Exam Cell with valid reason and documentation. Fill out a ‘Missed Exam’ form and request a make-up exam setting, per policy."
+  },
+  {
+    "intent": "career_internships_1",
+    "questions": [
+      "How can I apply for internships through Brainware's placement cell?"
+    ],
+    "answer": "Internship opportunities are posted on the placement portal or notice boards. You can apply online, and placement cell will guide you through selection and documentation."
+  },
+  {
+    "intent": "career_internships_2",
+    "questions": [
+      "Is there a job board for students at Brainware?"
+    ],
+    "answer": "Yes—check the Placement or Career Services portal for a job board listing internship and job openings."
+  },
+  {
+    "intent": "career_internships_3",
+    "questions": [
+      "How do I book a career counseling session at Brainware?"
+    ],
+    "answer": "Visit the placement or career services portal or office to schedule a counseling session—either walk-in or via online booking in the portal."
+  },
+  {
+    "intent": "career_internships_4",
+    "questions": [
+      "Are there any upcoming career fairs at Brainware University?"
+    ],
+    "answer": "Announcements about career fairs are posted on the portal, notice boards, and via campus emails. Check regularly under “Events” or “Placement Events.”"
+  },
+  {
+    "intent": "international_students_1",
+    "questions": [
+      "How do I get my visa documents from Brainware University?"
+    ],
+    "answer": "Request documents like the admission letter or Bonafide Certificate via the international student portal or from the Admissions/International Office."
+  },
+  {
+    "intent": "international_students_2",
+    "questions": [
+      "Who can help with immigration questions at Brainware?"
+    ],
+    "answer": "The International Office or Student Services handles immigration and visa-related questions—reach out to them directly via email or portal."
+  },
+  {
+    "intent": "international_students_3",
+    "questions": [
+      "Do I need health insurance as an international student at Brainware?"
+    ],
+    "answer": "Health insurance may be required or strongly recommended. Confirm with the International Office about policy details and coverage requirements."
+  },
+  {
+    "intent": "international_students_4",
+    "questions": [
+      "What support services are available for international students at Brainware?"
+    ],
+    "answer": "International students can receive assistance with visa, housing, language, orientation, and counseling services via the International Office or Student Services."
+  },
+  {
+    "intent": "health_wellness_1",
+    "questions": [
+      "How do I make a health center appointment at Brainware?"
+    ],
+    "answer": "Appointments can be booked via the student portal under “Health Services” or by visiting the health center reception during working hours."
+  },
+  {
+    "intent": "health_wellness_2",
+    "questions": [
+      "Are mental health services available at Brainware University?"
+    ],
+    "answer": "Yes—counseling and mental health support are offered via the Health Center or Student Affairs. Reach out through the portal or in person."
+  },
+  {
+    "intent": "health_wellness_3",
+    "questions": [
+      "Is COVID-19 vaccination required at Brainware?"
+    ],
+    "answer": "Check the Health Services section in the portal or campus notices for current COVID‑19 vaccination policy; it may vary over time."
+  },
+  {
+    "intent": "health_wellness_4",
+    "questions": [
+      "Where can I get medical insurance details at Brainware?"
+    ],
+    "answer": "Health insurance information is available via the Health or Student Services portal sections or from the campus health center."
+  },
+  {
+    "intent": "library_learning_1",
+    "questions": [
+      "How do I access online journals through Brainware library?"
+    ],
+    "answer": "Log into the library portal and navigate to “E‑Resources” or “Online Journals”. You may need your university credentials to access academic databases."
+  },
+  {
+    "intent": "library_learning_2",
+    "questions": [
+      "What are the library opening hours at Brainware?"
+    ],
+    "answer": "Library hours vary—typically Monday to Friday from around 9 AM to 8 PM and limited Saturday hours. Confirm on the library’s notice board or portal."
+  },
+  {
+    "intent": "library_learning_3",
+    "questions": [
+      "Can I book a study room in the Brainware library?"
+    ],
+    "answer": "Yes—study room reservation is offered via the library portal or at the library front desk, depending on availability."
+  },
+  {
+    "intent": "library_learning_4",
+    "questions": [
+      "Is tutoring available for my course at Brainware?"
+    ],
+    "answer": "Tutoring or academic help may be available through the Learning Center or department; check “Support Services” in the portal or ask your advisor."
+  },
+  {
+    "intent": "ragging_general_1",
+    "questions": [
+      "What is Brainware University's policy on ragging?"
+    ],
+    "answer": "Brainware follows strict anti‑ragging policies as per UGC regulations, with zero tolerance toward any form of ragging."
+  },
+  {
+    "intent": "ragging_general_2",
+    "questions": [
+      "Is ragging banned on Brainware campus?"
+    ],
+    "answer": "Yes—ragging is completely banned, and any violation is subject to disciplinary and legal action."
+  },
+  {
+    "intent": "ragging_general_3",
+    "questions": [
+      "What are the consequences if someone is caught ragging at Brainware?"
+    ],
+    "answer": "Consequences include disciplinary penalties (warning, suspension, expulsion) and possible legal consequences under Indian law."
+  },
+  {
+    "intent": "ragging_general_4",
+    "questions": [
+      "Where can I read the anti-ragging guidelines at Brainware?"
+    ],
+    "answer": "Anti‑ragging guidelines are available on the university’s website, in the student handbook, or via the student portal under “Policies.”"
+  },
+  {
+    "intent": "ragging_reporting_1",
+    "questions": [
+      "How do I report a ragging incident at Brainware?"
+    ],
+    "answer": "Report incidents to the Anti‑Ragging Committee via email, the student portal's designated section, or directly at the committee office."
+  },
+  {
+    "intent": "ragging_reporting_2",
+    "questions": [
+      "Is there an anonymous way to report ragging at Brainware University?"
+    ],
+    "answer": "Many universities provide anonymous reporting forms via email or the portal. Verify if Brainware offers such an option through Student Services."
+  },
+  {
+    "intent": "ragging_reporting_3",
+    "questions": [
+      "Who do I contact if I or someone else is being ragged at Brainware?"
+    ],
+    "answer": "Contact the Anti‑Ragging Committee members, student helpdesk, or Student Affairs office immediately. Contact details are on the university portal."
+  },
+  {
+    "intent": "ragging_reporting_4",
+    "questions": [
+      "What happens after I report a ragging incident at Brainware?"
+    ],
+    "answer": "After reporting, the committee initiates an investigation, follows due process, and enforces disciplinary or legal actions as needed."
+  },
+  {
+    "intent": "ragging_support_law_1",
+    "questions": [
+      "Is there an anti-ragging committee at Brainware?"
+    ],
+    "answer": "Yes—the university has an Anti‑Ragging Committee as mandated by law, to monitor and handle ragging incidents."
+  },
+  {
+    "intent": "ragging_support_law_2",
+    "questions": [
+      "Are there helpline numbers for ragging complaints at Brainware?"
+    ],
+    "answer": "Yes—helpline numbers and contact emails for ragging complaints are provided in the student handbook or on the portal’s policies section."
+  },
+  {
+    "intent": "ragging_support_law_3",
+    "questions": [
+      "Can I talk to a counselor if I’m feeling threatened at Brainware?"
+    ],
+    "answer": "Yes—counseling services are available via Student Affairs or the Health Center. You can request support through the portal or in person."
+  },
+  {
+    "intent": "ragging_support_law_4",
+    "questions": [
+      "What support is available for ragging victims at Brainware?"
+    ],
+    "answer": "Victims receive support via counseling, medical aid, and administrative assistance. The Anti‑Ragging Committee ensures their safety and initiates action."
+  },
+  {
+    "intent": "ragging_support_law_5",
+    "questions": [
+      "What steps are taken to prevent ragging in Brainware hostels?"
+    ],
+    "answer": "Prevention measures include orientation sessions, anti‑ragging awareness campaigns, hostel monitoring, and strict enforcement of policies."
+  },
+  {
+    "intent": "ragging_support_law_6",
+    "questions": [
+      "Whom do I approach if ragging happens in my hostel at Brainware?"
+    ],
+    "answer": "Approach the Anti‑Ragging Committee or hostel warden immediately. Contact details are available on the portal or hostel notice board."
+  },
+  {
+    "intent": "ragging_support_law_7",
+    "questions": [
+      "Is ragging a punishable offense under Indian law?"
+    ],
+    "answer": "Yes—ragging is a criminal offense in India under the Indian Penal Code and UGC regulations."
+  },
+  {
+    "intent": "ragging_support_law_8",
+    "questions": [
+      "Will Brainware University take legal action against ragging?"
+    ],
+    "answer": "Yes—the university will initiate disciplinary and legal actions against perpetrators in accordance with institutional and legal guidelines."
+  },
+  {
+    "intent": "campus_location_navigation_1",
+    "questions": [
+      "Where is Brainware University located in Barasat?"
+    ],
+    "answer": "Brainware University is located at [specific address or landmark], Barasat, Kolkata, West Bengal, pin‑code 700125. See the campus map for directions."
+  },
+  {
+    "intent": "campus_location_navigation_2",
+    "questions": [
+      "Can you give me directions to the library on Brainware campus?"
+    ],
+    "answer": "From the main entrance, follow signage towards the academic block. The library is usually located adjacent to the central academic building. Use the campus map for precise pathing."
+  },
+  {
+    "intent": "campus_location_navigation_3",
+    "questions": [
+      "Where is the administrative office in Brainware University?"
+    ],
+    "answer": "The administrative office is in the main administrative building near the central entrance; it’s marked on the campus map and signboards."
+  },
+  {
+    "intent": "campus_location_navigation_4",
+    "questions": [
+      "Which building houses the Computer Science department at Brainware?"
+    ],
+    "answer": "The Computer Science department is located in the designated engineering or technology block; check the campus directory or map for building number."
+  },
+  {
+    "intent": "campus_location_navigation_5",
+    "questions": [
+      "How do I find the examination hall at Brainware?"
+    ],
+    "answer": "The examination hall is located near the academic block or central quadrangle. Refer to posted signage or the campus map to locate it."
+  },
+  {
+    "intent": "campus_location_navigation_6",
+    "questions": [
+      "Is there a campus map for Brainware I can download?"
+    ],
+    "answer": "Yes—a downloadable campus map is available on the university website or in the student portal under “Campus Map”."
+  },
+  {
+    "intent": "campus_location_navigation_7",
+    "questions": [
+      "How do I get from the canteen to the auditorium in Brainware?"
+    ],
+    "answer": "Using the map, locate the canteen and auditorium. Typically, they’re in adjacent zones of the central campus. Follow directional signs or ask at the helpdesk."
+  },
+  {
+    "intent": "campus_location_navigation_8",
+    "questions": [
+      "Is there a shuttle service available at Brainware campus?"
+    ],
+    "answer": "Some campuses offer shuttle services between popular points—check with Student Affairs or Transport Services to see if Brainware provides this."
+  },
+  {
+    "intent": "campus_location_navigation_9",
+    "questions": [
+      "Where can I find parking on Brainware campus?"
+    ],
+    "answer": "Designated parking zones for students and visitors are located near the main gate and administrative block. Parking layout is shown on the campus map."
+  },
+  {
+    "intent": "campus_location_navigation_10",
+    "questions": [
+      "Where is the nearest hospital or clinic from Brainware?"
+    ],
+    "answer": "Local hospitals or clinics near Barasat are listed under “Nearby Services” on the campus website or in orientation materials."
+  },
+  {
+    "intent": "campus_location_navigation_11",
+    "questions": [
+      "Is there a first-aid center on Brainware campus?"
+    ],
+    "answer": "Yes—the first‑aid center is usually located within the student health center or campus infirmary; check signage or the campus map for exact location."
+  },
+  {
+    "intent": "food_dining_1",
+    "questions": [
+      "Where is the main canteen in Brainware University?"
+    ],
+    "answer": "The main canteen is located in the central student block or near the academic buildings. Its exact location is on the campus map."
+  },
+  {
+    "intent": "food_dining_2",
+    "questions": [
+      "Are there food courts or cafes inside Brainware campus?"
+    ],
+    "answer": "In addition to the main canteen, the campus may host small cafes or kiosks—details can be found in the portal or posted on notice boards."
+  },
+  {
+    "intent": "food_dining_3",
+    "questions": [
+      "What are the dining hall locations and timings at Brainware?"
+    ],
+    "answer": "Dining locations and meal timing schedules are posted at each venue and often listed under “Cafeteria Info” in the portal."
+  },
+  {
+    "intent": "transport_accessibility_1",
+    "questions": [
+      "Where is the bus stop near Brainware University?"
+    ],
+    "answer": "The nearest public bus stop is usually just outside the campus main gate—ask at Student Affairs or see the local transport guide for bus route details."
+  },
+  {
+    "intent": "transport_accessibility_2",
+    "questions": [
+      "How can I reach Brainware University from the train station or airport?"
+    ],
+    "answer": "From Barasat railway station, you can take an auto or local bus to the campus. From Kolkata airport, take a taxi to Barasat and then a local ride to the university."
+  },
+  {
+    "intent": "transport_accessibility_3",
+    "questions": [
+      "Is there a taxi or cab stand near Brainware campus?"
+    ],
+    "answer": "Yes—you can find auto‑rickshaw or app‑based taxi stands near the main entrance or nearby roads; alternatively, you can book drop-off via your mobile app."
+  },
+  {
+    "intent": "transport_accessibility_4",
+    "questions": [
+      "Are there signboards or help desks at Brainware’s entry points?"
+    ],
+    "answer": "Yes—entry points usually have directional signboards and a helpdesk or security gate staff to guide visitors and students."
+  },
+  {
+    "intent": "about_university",
+    "questions": [
+      "Tell me about Brainware University",
+      "about Brainware University",
+      "what is Brainware University",
+      "Brainware University info",
+      "Brainware University details"
+    ],
+    "answer": "Brainware University is a private university in Barasat, Kolkata (est. 2016), offering 55+ UG/PG/PhD programmes across Engineering, Management, Law, Bioscience, Allied Health, Media and more. Campus facilities include labs, library, hostels, sports and healthcare, with an active placement cell. 📍 398, Ramkrishnapur Rd, Barasat, Kolkata 700125. 🔗 <a href=\"https://www.brainwareuniversity.ac.in/\" target=\"_blank\">Official site</a>"
+  },
+  {
+    "intent": "environment_initiatives",
+    "questions": [
+      "What environmental initiatives does Brainware University have?",
+      "Is Brainware environmentally friendly?",
+      "environment policy"
+    ],
+    "answer": "Brainware promotes a clean, green campus: tree plantation drives, waste segregation, e‑waste collection, and energy‑saving measures. Students are encouraged to keep the campus plastic‑lite and follow green norms."
+  },
+  {
+    "intent": "ragging_free_campus_overview",
+    "questions": [
+      "Is Brainware a ragging‑free campus?",
+      "ragging free campus",
+      "anti ragging overview"
+    ],
+    "answer": "Yes—Brainware is a strictly ragging‑free campus under UGC norms. Zero tolerance applies. If you face or witness ragging: 1) ensure safety, 2) inform the Anti‑Ragging Committee/helpdesk, 3) file a report via portal/email, 4) cooperate with inquiry."
+  },
+  {
+    "intent": "steps_student_id_create",
+    "questions": [
+      "How do I create my student ID at Brainware?",
+      "student ID steps",
+      "how to get student id card"
+    ],
+    "answer": "Steps: 1) Log into the student portal, 2) Open ‘ID Card/Student Services’, 3) Fill details and upload photo as per spec, 4) Submit request, 5) Collect ID from Student Services/Registrar when notified (carry admission proof)."
+  },
+  {
+    "intent": "steps_library_id_create",
+    "questions": [
+      "How do I create my library ID at Brainware?",
+      "library card steps",
+      "get library id"
+    ],
+    "answer": "Steps: 1) Go to Library portal or front desk, 2) Provide student ID/enrollment details, 3) Submit photo (if required), 4) Accept library usage rules, 5) Receive library ID/enable account for e‑resources."
+  },
+  {
+    "intent": "steps_portal_account_setup",
+    "questions": [
+      "How do I activate my student portal account at Brainware?",
+      "portal account setup",
+      "first login steps"
+    ],
+    "answer": "Steps: 1) Open student portal link, 2) Click ‘Activate/First‑Time Login’, 3) Enter registered email/student code, 4) Verify OTP/email link, 5) Set a strong password, 6) Sign in and complete profile."
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "last_updated": "2025-09-10",
+  "university": "Brainware University",
+  "courses": [
+    {
+      "code": "BTECH_CSE_AI_ML",
+      "name": "B.Tech in CSE (AI & ML)",
+      "duration_years": 4,
+      "eligibility": "10+2 with PCM",
+      "annual_fees_inr": 122250,
+      "total_fees_inr": 489000,
+      "keywords": ["btech", "cse", "ai", "ml", "artificial intelligence", "machine learning"],
+      "url": "https://www.brainwareuniversity.ac.in/btech-cse.php"
+    },
+    {
+      "code": "BTECH_CSE_CYBER",
+      "name": "B.Tech in CSE (Cyber Security)",
+      "duration_years": 4,
+      "eligibility": "10+2 with PCM",
+      "annual_fees_inr": 122250,
+      "total_fees_inr": 489000,
+      "keywords": ["btech", "cse", "cyber", "security", "cyber security"],
+      "url": "https://www.brainwareuniversity.ac.in/btech-cse.php"
+    },
+    {
+      "code": "MCA",
+      "name": "MCA (Master of Computer Applications)",
+      "duration_years": 3,
+      "eligibility": "BCA or equivalent",
+      "annual_fees_inr": 86666,
+      "total_fees_inr": 260000,
+      "keywords": ["mca", "computer applications", "masters"],
+      "url": "https://www.brainwareuniversity.ac.in/mca.php"
+    },
+    {
+      "code": "GNM",
+      "name": "GNM Nursing",
+      "duration_years": 3,
+      "eligibility": "10+2 with Science",
+      "annual_fees_inr": 166333,
+      "total_fees_inr": 499000,
+      "keywords": ["gnm", "nursing", "diploma"],
+      "url": "https://www.brainwareuniversity.ac.in/gnm-nursing.php"
+    }
+  ],
+  "hostel": {
+    "available": true,
+    "notes": "Separate hostels for boys and girls with mess",
+    "keywords": ["hostel", "stay", "accommodation"]
+  },
+  "contact": {
+    "phone": "+91-7044447723",
+    "email": "info@brainwareuniversity.ac.in",
+    "keywords": ["contact", "phone", "email"]
+  },
+  "location": {
+    "address": "398, Ramkrishnapur Rd, near Jagadighata Market, Barasat, Kolkata, West Bengal 700125",
+    "maps_url": "https://www.google.com/maps/place/Brainware+University/@22.7199822,88.4721247,17z",
+    "keywords": ["location", "address", "maps", "barasat", "kolkata"]
+  }
+}
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login • Brainware Help Bot</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <script defer src="login.js"></script>
+    <style>
+        body { font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+    </style>
+    <meta name="color-scheme" content="dark light">
+    <meta name="theme-color" content="#0f172a">
+    <meta name="description" content="Login to Brainware University Help Bot">
+    <link rel="icon" href="ai-image.jpg">
+    <link rel="apple-touch-icon" href="ai-image.jpg">
+    <link rel="manifest" href="data:application/manifest+json,{\"name\":\"Brainware Help Bot\",\"short_name\":\"BWU Bot\"}">
+    <noscript>Please enable JavaScript to use this page.</noscript>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <script>window.addEventListener('pageshow',e=>{if(e.persisted){location.reload();}})</script>
+    <!-- Basic CSP suggestion: adjust if you host assets elsewhere -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self';">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+</head>
+<body>
+    <main class="login-container">
+        <section class="login-card" role="form" aria-labelledby="login-title">
+            <img class="avatar" src="imageai.jpg" alt="Brainware Assistant" width="96" height="96">
+            <h1 id="login-title">Welcome to Brainware Help Bot</h1>
+            <p class="subtitle">Sign in to personalize your experience</p>
+
+            <form id="loginForm" novalidate>
+                <div class="form-field">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="e.g., Shivnath Ghosh" autocomplete="name" required>
+                    <span class="error" id="nameError" aria-live="polite"></span>
+                </div>
+                <div class="form-field">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="e.g., shivnath@brainwareuniversity.ac.in" autocomplete="email" required>
+                    <span class="error" id="emailError" aria-live="polite"></span>
+                </div>
+                <div class="form-field">
+                    <label for="studentCode">Student Code</label>
+                    <input type="text" id="studentCode" name="studentCode" placeholder="e.g., BWU/BTA/24/001" autocomplete="off" required>
+                    <span class="error" id="codeError" aria-live="polite"></span>
+                </div>
+
+                <button type="submit" id="loginBtn">Continue</button>
+            </form>
+
+            <p class="meta">By continuing, you agree to our minimal local storage of your profile on this device only.</p>
+        </section>
+    </main>
+</body>
+</html>
+
